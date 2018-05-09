@@ -23,8 +23,10 @@ bridge = CvBridge()
 def image_callback(msg):
     print("Received an image!")
     try:
+        print(msg.height)
+        print(msg.width)
         # Convert your ROS Image message to OpenCV2
-        cv2_img = bridge.imgmsg_to_cv2(msg, "bgr8")
+        cv2_img = bridge.imgmsg_to_cv2(msg, "passthrough")
     except CvBridgeError, e:
         print(e)
     else:
