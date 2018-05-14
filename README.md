@@ -1,8 +1,8 @@
 # Astrobee Research CISC 489
 ##### Steven Kuntz, Colby Banbury, Evan DeAngelis
-#
-#
-#
+
+
+
 #### Abstract
 
   - Adapting NASA Astrobee Robot Software for object detection and collision avoidance
@@ -24,4 +24,4 @@
 
 #### Conclusions
 
-### Direction for further Research
+#### Direction for further Research
