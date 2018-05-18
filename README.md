@@ -13,6 +13,8 @@
 * Astrobee Robot Software is a simulation of the ISS and the Astrobee Robot
 * Allows Scientists to simulate experiments and commands on Earth before sending them to be executed by the actual Astrobee on the ISS
 
+![camera](https://github.com/colbybanbury/astrobee_CISC489/blob/master/Screenshot%20from%202018-05-17%2022-22-48.png)
+
 #### Subjects, Methods, and Analysis
 * NASA has the Astrobee Robot Software listed on Github
 * The software uses ROS in order to operate the simulation and handle the image collection
