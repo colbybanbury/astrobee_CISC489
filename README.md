@@ -6,19 +6,19 @@
 #### Abstract
 
   - Initial Goal: Adapting NASA Astrobee Robot Software for object detection and collision avoidance
-  - Final Goal: Using a genetic algorith to determine position using the camera suite alone
+  - Final Goal: Using a genetic algorithm to determine position using the camera suite alone
   
   #### Introduction
 * NASA intends to send these Astrobee Robots to the ISS for research assistance
 * Astrobee Robot Software is a simulation of the ISS and the Astrobee Robot
 * Allows Scientists to simulate experiments and commands on Earth before sending them to be executed by the actual Astrobee on the ISS
-* 
 
 #### Subjects, Methods, and Analysis
 * NASA has the Astrobee Robot Software listed on Github
 * The software uses ROS in order to operate the simulation and handle the image collection
 * Using genetic algorithms we can provide ros commands to move the simulated astrobee to the desired coordinate location
-* 
+* The Astrobee uses a coordinate positioning system that allows it to know it's position on the ISS at all times. We plan to use this position data to label images taken from the astrobees camera suite. This will be our training dataset for an genetic algorithm that, hopefully, will be able to detect the position of the astrobee from image data alone.
+
 #### Research and Purpose
 https://ntrs.nasa.gov/archive/nasa/casi.ntrs.nasa.gov/20160007769.pdf
 * Astrobees used for three scenarios: research, camera, and search
