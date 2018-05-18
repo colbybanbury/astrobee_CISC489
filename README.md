@@ -53,6 +53,10 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 
 
 #### Conclusions
+Over the course of this project, we had refine our end goal a lot. Initially we expected to be working with object detection of the astrobee and navigation of the robot. We underestimated the difficulty of deciphering software written by an outside party to be able to use as we pleased. Between set up and getting the data we needed, time was not in our favor to tackle it all. By the end of this project we accomplished:
+* Setting up and running the simulation software
+* Accessing the saved images from the simulator
+* Finding the location data that corresponds with the image received 
 
 #### Direction for further Research
 
