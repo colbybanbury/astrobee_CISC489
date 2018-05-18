@@ -38,7 +38,7 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 ![reviz](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobee_rviz.png)
 
 ##### Depth Camera and Area Mapper
-![depth](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobee_ros_0.3.0.png)
+![depth](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobree_ros_0.3.0.png)
 
 ##### Image From Astrobee Camera
 ![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/camera_image.jpeg)
