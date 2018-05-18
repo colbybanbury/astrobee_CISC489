@@ -5,8 +5,8 @@
 
 #### Abstract
 
-  - Adapting NASA Astrobee Robot Software for object detection and collision avoidance
-  - 
+  - Initial Goal: Adapting NASA Astrobee Robot Software for object detection and collision avoidance
+  - Final Goal: Using a genetic algorith to determine position using the camera suite alone
   
   #### Introduction
 * NASA intends to send these Astrobee Robots to the ISS for research assistance
@@ -29,7 +29,27 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 * good for unsupervised learning 
 * 
 #### Results
-* 
+##### Initial Gazebo simulation
+![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobee_gazebo.png)
+
+##### RVIZ Simulation
+![reviz](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobee_rviz.png)
+
+##### Depth Camera and Area Mapper
+![depth](https://github.com/colbybanbury/astrobee_CISC489/raw/master/astrobee_ros_0.3.0.png)
+
+##### Image From Astrobee Camera
+![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/camera_image.jpeg)
+
+##### Astrobee Movement from ROS Commands 
+![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/itsalive0.png)
+![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/itsalive1.png)
+![gazebo](https://github.com/colbybanbury/astrobee_CISC489/raw/master/itsalive2.png)
+
+
+
+
+
 #### Conclusions
 
 #### Direction for further Research
