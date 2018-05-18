@@ -57,7 +57,7 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 #### Direction for further Research
 
 ##### Genetic algorithms steps and how we would implement them
-![GA](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
+![GA](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/07/22154007/steps.png)
 1. Initialization
 * Dataset:
 > * Create an image dataset and label each image with the corrispoinding location data from simulation
