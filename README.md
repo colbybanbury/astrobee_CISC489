@@ -30,6 +30,10 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 * Genetic algorithms can be used to teach a robots its paths to take for its destination
 * good for unsupervised learning 
 
+https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/
+* Genetic algorithms: How they work and how to properly apply them
+* Very useful for coming up with a road map for a future genetic algorithm for our application
+
 
 
 #### Results
