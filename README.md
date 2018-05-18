@@ -28,8 +28,7 @@ https://www.cc.gatech.edu/faculty/ashwin/papers/er-94-01.pdf
 * Genetic algorithms can be used to teach a robots its paths to take for its destination
 * good for unsupervised learning 
 
-https://github.com/nasa/astrobee
-* Source Code for astrobee software
+
 
 #### Results
 ##### Initial Gazebo simulation
@@ -56,3 +55,28 @@ https://github.com/nasa/astrobee
 #### Conclusions
 
 #### Direction for further Research
+
+##### Genetic algorithms steps and how we would implement them
+![GA](https://www.analyticsvidhya.com/blog/2017/07/introduction-to-genetic-algorithm/)
+1. Initialization
+* Dataset:
+> * Create an image dataset and label each image with the corrispoinding location data from simulation
+* Initial Population of detection algorithms:  
+> * Create a population of different, rudimentary location detection algorithms based on existing image recognition software
+> * This will likely be the hardest stage as this part of Genetic algorithms does not easily work with image detection
+2. Fitness Function
+* Define what is more fit:
+> * the closer the guess is to the actual coordinates the more fit the algorithm
+3. Selection
+* Weighted Selection Criteria:
+> * Use the fitness from coordinate data to increase the chance of reproduction
+* Source of randomness:
+> * Roulette Wheel Selection
+> * Fitness increases the chance but reproduction is still ultimately rando
+![roulette](https://s3-ap-south-1.amazonaws.com/av-blog-media/wp-content/uploads/2017/07/22171149/roulette.png)
+4. Crossover
+* Mix the traits of the parents
+> * Could increase ammount of crossover based on relative fitness
+5. Mutation
+* Add in random weighting
+> * change the weighting of a certain aspect the image detection in some of the offspring
