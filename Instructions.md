@@ -49,4 +49,4 @@ The `image_callback` function is called every time the Subscriber receives an im
 
 Alternatively, this function can save the images as byte arrays and annotate the files with location and position stamps, so long as the relevant data is passed into the script upon running it. An image created with the above python code can be found below.
 
-![/hw/cam_nav](https://github.com/colbybanbury/astrobee_CISC489/raw/master/camera_image.png)
+![/hw/cam_nav](https://github.com/colbybanbury/astrobee_CISC489/raw/master/camera_image.jpeg)
